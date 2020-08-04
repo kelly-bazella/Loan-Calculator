@@ -49,34 +49,61 @@
               </div>
               <div class="form-group">
                 <input
-                type="number"
-                class="form-control"
-                id="years"
-                placeholder="Years To Repay"
-              />
+                  type="number"
+                  class="form-control"
+                  id="years"
+                  placeholder="Years To Repay"
+                />
               </div>
               <div class="form-group">
-                  <input type="submit" value="Calculate" class="btn btn-block btn-dark">
+                <input
+                  type="submit"
+                  value="Calculate"
+                  class="btn btn-block btn-dark"
+                />
               </div>
             </form>
-            <!--LOADER HERE-->
-
+            <!--LOADER-->
+<!-- <div id="loading">
+    <img src="img/loading.gif" alt=""/>
+</div> -->
             <!--RESULTS-->
             <div id="results" class="pt-4">
-                <h5>Results</h5>
-                <div class="form-group">
-                    <div class="input-group">
-                      <span class="input-group-text">Monthly Payment</span>
-                      <input
-                        type="number"
-                        class="form-control"
-                        id="monthly-payment"
-                        disabled
-                      />
-                    </div>
-                  </div>
+              <h5>Results</h5>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text">Monthly Payment</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="monthly-payment"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text">Total Payment</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="total-payment"
+                    disabled
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text">Total Interest</span>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="total-interest"
+                    disabled
+                  />
+                </div>
+              </div>
             </div>
-        
           </div>
         </div>
       </div>
@@ -99,5 +126,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
